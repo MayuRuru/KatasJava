@@ -1,16 +1,15 @@
 package katas.katas.ShoppingKata;
 
 public class FreeProduct extends Product{
-    private String name;
-    private Double price;
 
     public FreeProduct(String name) {
-       this.name = name;
-       this.price = 0.0;
+      super();
+      this.name= name;
     }
 
     public Double getPrice() {
-        return price;
+        double freePrice = 0.0;
+        return freePrice;
     }
 
 }

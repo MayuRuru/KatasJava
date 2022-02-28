@@ -1,16 +1,23 @@
 package katas.katas.ShoppingKata;
 
 public class Product {
-    private String name;
-    private Double price;
-    private Double discount;
+    public String name;
+    public Double price;
+    public Double discount;
 
-    public Product(String name, double price){
+    public Product() {
+    }
+
+    public Product(String name, Double price) {
         this.name = name;
         this.price = price;
     }
 
-    public Double getDiscount() {
-        return discount;
+    public String getName() {
+        return name;
+    }
+
+    public Double getPrice() {
+        return price;
     }
 }
