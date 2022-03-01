@@ -6,6 +6,8 @@ A kata for coders is an excercise that helps hone programming skills through pra
 * SOLID principles for Clean Code
 * Object Oriented Programming (OPP) principles: Data Abstraction, Encapsulation, Inheritance and Polymorphism
 
+🚥 Test → Red → Green → Refactor 🔁
+
 ### ⚒️ Tech Stack & Tools:
 * JAVA
 * Spring Boot 
@@ -27,6 +29,8 @@ run the tests to see them pass!
 * Function that when passed two numbers returns the largest.
 * Function that when passing an array of numbers puts the result of the sum of all of them in the total.
 * Function that when passing a list of integers List returns another list that has only the numbers greater than or equal to 5.
+
+<img src="https://user-images.githubusercontent.com/92175898/156222479-bc7d8ecf-762a-47ae-a291-783392ad75fc.png">
 
 ## 🛒 2 - A Shopping Kata
 * All products must have name and price.
