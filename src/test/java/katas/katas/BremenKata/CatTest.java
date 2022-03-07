@@ -49,4 +49,30 @@ class CatTest {
         assertEquals(cat.message(), "The cat " + cat.name + " refuses to sing");
     }
 
+    @Test
+    void donkeysSayIfTheySing(){
+        Donkey donkey = new Donkey("Manolo", "OiOi");
+        donkey.startsSinging();
+        assertEquals(donkey.message(), "The donkey " + donkey.name + " is singing" + donkey.sound);
+    }
+
+    @Test
+    void donkeysSayIfTheyDontSing(){
+        Donkey donkey = new Donkey("Manolo", "OiOi");
+        assertEquals(donkey.message(), "The donkey " + donkey.name + " refuses to sing");
+    }
+
+    void directorCanOrderManyAnimalsToSing(){
+        Director director = new Director();
+        director.startSing();
+
+    }
+
+    void directorCanOrderManyAnimalsToShutUp(){
+        Director director = new Director();
+        director.stopSing();
+
+    }
+
+
 }
