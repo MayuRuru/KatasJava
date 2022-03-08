@@ -32,17 +32,7 @@ run the tests to see them pass!
 
 <img src="https://user-images.githubusercontent.com/92175898/156222479-bc7d8ecf-762a-47ae-a291-783392ad75fc.png">
 
-## 🛒 2 - A Shopping Kata
-* All products must have name and price.
-* The price of a free product is always 0.
-* A discount can be applied to food products.
-* The price of a product without discount is the product' original price.
-* The price of a product with a discount is the price with the applied discount.
-* The shopping kart contains a certain number of products, which can be zero.
-* The total cost of the kart is the sum of the products prices with discounts applied.
-* Book products also have authorship and description, and a maximum of a 10% discount can be applied.
-
-## 🎺 3 - Die Bremer Stadtmusikanten Kata:
+## 🎺 2 - Die Bremer Stadtmusikanten Kata:
 The Bremen Town Musicians are a choir of little animals that are left to sing together.
 * Cats should be started with a name and a sound they usually sing.
 * At first cats don't sing.
@@ -54,4 +44,16 @@ The Bremen Town Musicians are a choir of little animals that are left to sing to
 * To direct the choir there is a director who has the ability to make several animals sing at the same time. 
 * We will instantiate this director with a list of animals and it must have the capacity of:
 (startSing() and stopSing()) functions in which the animals must start and stop singing regardless of their type or the number of participants.
+
+<img src="https://user-images.githubusercontent.com/92175898/157194401-2005a83b-af90-433a-9606-14bdd94ba1c3.png">
+
+## 🛒 3 - A Shopping Kata
+* All products must have name and price.
+* The price of a free product is always 0.
+* A discount can be applied to food products.
+* The price of a product without discount is the product' original price.
+* The price of a product with a discount is the price with the applied discount.
+* The shopping kart contains a certain number of products, which can be zero.
+* The total cost of the kart is the sum of the products prices with discounts applied.
+* Book products also have authorship and description, and a maximum of a 10% discount can be applied.
 
