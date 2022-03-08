@@ -33,7 +33,7 @@ public abstract class Animal {
 
     public String message() {
         if (this.singing) {
-            return "The animal " + this.name + " is singing" + this.sound;}
+            return "The animal " + this.name + " is singing " + this.sound;}
         return "The animal " + this.name + " refuses to sing";
     }
 }

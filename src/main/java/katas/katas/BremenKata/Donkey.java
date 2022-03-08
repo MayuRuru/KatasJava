@@ -11,7 +11,7 @@ public class Donkey extends Animal {
 
     public String message() {
         if (this.singing) {
-            return "The donkey " + this.name + " is singing" + this.sound;}
+            return "The donkey " + this.name + " is singing " + this.sound;}
         return "The donkey " + this.name + " refuses to sing";
     }
 
