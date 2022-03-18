@@ -10,7 +10,7 @@ public class Director {
     }
 
     public void startSing() {
-        for (Animal animal :band) {
+        for (Animal animal : band) {
             animal.startsSinging();
         }
     }

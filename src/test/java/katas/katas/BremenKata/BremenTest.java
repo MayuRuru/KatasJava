@@ -8,7 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasProperty;
 import static org.junit.jupiter.api.Assertions.*;
 
-class CatTest {
+class BremenTest {
 
     @Test
     void catsHaveNameAndSound(){

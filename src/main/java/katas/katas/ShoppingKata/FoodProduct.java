@@ -1,6 +1,6 @@
 package katas.katas.ShoppingKata;
 
-public class FoodProduct extends Product{
+public class FoodProduct extends Product implements Discount{
     private Double discount;
 
     public FoodProduct(String name, double price){
@@ -22,6 +22,5 @@ public class FoodProduct extends Product{
    public void applyDiscount(){
         this.price = price - ((price/100)*discount);
    }
-
 
 }
