@@ -57,3 +57,4 @@ The Bremen Town Musicians are a choir of little animals that are left to sing to
 * The total cost of the kart is the sum of the products prices with discounts applied.
 * Book products also have authorship and description, and a maximum of a 10% discount can be applied.
 
+<img src="!https://user-images.githubusercontent.com/92175898/159040924-4b66276d-da1c-4732-b51e-203553c33c37.png)">
